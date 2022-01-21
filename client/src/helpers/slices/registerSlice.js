@@ -14,13 +14,9 @@ const registerSlice = createSlice({
     registersucess(state, action) {
       return { ...state, successful: true, msg: action.payload };
     },
-    registerfail: (state, action) => {
-      state.error = action.payload;
-      state.successful = false;
-    },
   },
 });
 
-export const { registersucess, registerfail } = registerSlice.actions;
+export const { registersucess } = registerSlice.actions;
 
 export default registerSlice.reducer;

@@ -3,7 +3,6 @@ const regex = new RegExp(/^\w+([\\.-]?\w+)*@\w+([\\.-]?\w+)*(\.\w{2,3})+$/);
 
 export function registerFormInputErrorHandler(data, setErrorState, setErrorMessage) {
   const enteredEmail = data.email;
-
   if (
     data.firstname.trim().length === 0 ||
     data.lastname.trim().length === 0 ||
