@@ -21,6 +21,6 @@ const registerSlice = createSlice({
   },
 });
 
-export const { registersucess } = registerSlice.actions;
+export const { registersucess, registerfail } = registerSlice.actions;
 
 export default registerSlice.reducer;
