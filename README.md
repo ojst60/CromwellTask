@@ -19,6 +19,4 @@ A project NodeJS app created by Julius Oyovwikigho.The frontend consist of React
 8. Run "npm start" from the frontend root directory CromwellTask\client to start the frontend 
 9. Server is running on localhost:3002 and frontend is running on localhost:3000
 ## .env information
-- MONGODB_URI="mongodb+srv://mongodb:mongodb@cluster0.kawdr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-- SERVER_PORT=3002
-- JWT_SECRET ="@!//iuou??M9123¨´`+a2s?dMmslasdu1084..-1d1o2n-&IASBD&"
+Attached to the email
