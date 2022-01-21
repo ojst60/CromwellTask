@@ -1,0 +1,34 @@
+.header {
+  background: #0099cc;
+  background: linear-gradient(to bottom, #0099cc, #ff99cc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+    display: flex;
+    flex:left
+}
+
+.nav ul,
+.nav li {
+  display: inline;
+  margin: 5rem
+}
+
+.signout {
+  margin: 5rem;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+  background: #9ec8d6;
+  outline: none;
+  border: 0
+}
+
+.signout:hover {
+  cursor: pointer;
+  background-color: silver;
+  font-weight: bold;
+}
