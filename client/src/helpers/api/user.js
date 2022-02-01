@@ -4,7 +4,8 @@ const server = "http://localhost:3002";
 
 export async function createUser(details) {
   const register = await axios.post(server + "/user/register", details, { withCredentials: true });
-  let response = { status: register.status, data: register.data };
+  let response = { status: register.data.status, msg: register.data.msg };
+    console.log(22, response);
   return response;
 }
 

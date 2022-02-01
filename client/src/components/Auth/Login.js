@@ -4,6 +4,7 @@ import { loginUser } from "../../helpers/api/user";
 import { loginSuccess } from "../../helpers/slices/loginSlice";
 import { useDispatch } from "react-redux";
 import { loginFormInputErrorHandler } from "../../helpers/errorhandler/inputerror";
+import { Button } from "@mui/material";
 import "../../componentStyles/Auth.css";
 
 const Login = () => {
@@ -47,9 +48,9 @@ const Login = () => {
         <form className="form">
           <input placeholder="Email" type="text" name="email" value={inputData.email} onChange={inputHandler} required />
           <input placeholder="password" type="password" name="password" value={inputData.password} onChange={inputHandler} required />
-          <button type="submit" onClick={formSubmitHandler}>
+          <Button variant="outlined"color="primary" onClick={formSubmitHandler}>
             Login
-          </button>
+          </Button>
           {errorState ? <p style={{ color: "red", fontSize: "small" }}>{errorMessage} </p> : <p></p>}
         </form>
         <p>
